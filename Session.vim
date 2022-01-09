@@ -21,6 +21,13 @@ tabnew
 tabnew
 tabrewind
 edit violin1.ly
+wincmd t
+let s:save_winminheight = &winminheight
+let s:save_winminwidth = &winminwidth
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
 argglobal
 balt violin2.ly
 setlocal fdm=manual
@@ -33,11 +40,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 35 - ((34 * winheight(0) + 25) / 51)
+let s:l = 15 - ((14 * winheight(0) + 25) / 51)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 35
+keepjumps 15
 normal! 03|
 if exists(':tcd') == 2 | tcd ~/lilypond/572 | endif
 tabnext
@@ -188,13 +195,13 @@ normal! 0
 if exists(':tcd') == 2 | tcd ~/lilypond/572 | endif
 tabnext 1
 set stal=1
-badd +29 ~/lilypond/572/violin1.ly
+badd +15 ~/lilypond/572/violin1.ly
 badd +36 ~/lilypond/572/violin2.ly
 badd +33 ~/lilypond/572/viola.ly
 badd +41 ~/lilypond/572/cello.ly
 badd +40 ~/lilypond/572/dblbass.ly
 badd +2 ~/lilypond/572/fullscore.ly
-badd +0 ~/lilypond/572/vlapart.ly
+badd +1 ~/lilypond/572/vlapart.ly
 badd +8 ~/lilypond/572/Makefile
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

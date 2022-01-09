@@ -12,7 +12,7 @@ vone = \relative g'' {
 
   % page 2
   a1 | b2 c8( d) b( c) | d1~ | 4 d\upbow c2~ | 4 c b a | gis\mordent fis8 e a2~ | 2 gis\upbow | a \breathe c~ | \break
-  4 a b2~ | 4 b a g | fis2 d'~ | 4 d c b | a2\breathe a'2~ | 4 a g f | e fis g2~ | 2 fis~ | \break
+  4 a b2~ | 4 b a g | fis2\breathe d'~ | 4 d c b | a2\breathe a'2~ | 4 a g f | e fis g2~ | 2 fis~ | \break
   4 fis\upbow e2~ | 2 dis | e2. d4 | c1~ | 4 c b2~ | 4 b a2~ | 4 a g2~ | 4 g fis e | \break
   dis2 e~ | 2 dis\upbow | e1 | fis | g | a~ | 8 b\upbow a g g'2~ | \break
   4 g f2~ | 4 f e2~ | 4 e d c | b2\mordent c~ | 2 b\upbow | c\breathe e~ | 4 e d c | \break
