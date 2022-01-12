@@ -1,6 +1,9 @@
-all : pdfs/fullscore.pdf pdfs/vlapart.pdf pdfs/vln1part.pdf pdfs/vln2part.pdf
+all : pdfs/fullscore.pdf pdfs/vlapart.pdf pdfs/vln1part.pdf pdfs/vln2part.pdf pdfs/cellopart.pdf pdfs/basspart.pdf
+	touch blank.pdf
+	touch blank.midi
 	mv *.pdf pdfs
 	mv *.midi midis
+	rm */blank.*
 
 fullscore.pdf : fullscore.ly violin1.ly violin2.ly viola.ly cello.ly dblbass.ly
 	lilypond fullscore.ly
@@ -17,3 +20,9 @@ pdfs/vln1part.pdf : vln1part.ly violin1.ly
 pdfs/vln2part.pdf : vln2part.ly violin2.ly
 	lilypond vln2part.ly
 	#fluidsynth -Fvln2part.wav vln2part.midi >/dev/null 2>&1
+
+pdfs/cellopart.pdf : cellopart.ly cello.ly
+	lilypond cellopart.ly
+
+pdfs/basspart.pdf : basspart.ly dblbass.ly
+	lilypond basspart.ly
