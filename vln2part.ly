@@ -1,3 +1,4 @@
+\version "2.22.1"
 \include "violin2.ly"
 
 \score {
