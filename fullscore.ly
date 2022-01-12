@@ -6,38 +6,41 @@
 \include "cello.ly"
 \include "dblbass.ly"
 
+\header {
+  title = "Piéce d'orgue"
+  composer = "J. S. Bach"
+}
+
 \score {
+  \header {
+    piece = "Gravement"
+  }
   <<
     \new Staff \with {midiInstrument = "violin"} {
-      \tempo 4=120
       \clef "treble"
       \time 2/2
       \key g \major
       \new Voice = "v1" { \vone }
     }
     \new Staff \with {midiInstrument = "violin"} {
-      \tempo 4=120
       \clef "treble"
       \time 2/2
       \key g \major
       \new Voice = "v2" { \vtwo }
     }
     \new Staff \with {midiInstrument = "viola"} {
-      \tempo 4=120
       \clef "alto"
       \time 2/2
       \key g \major
       \new Voice = "vla" { \vla }
     }
     \new Staff \with {midiInstrument = "cello"} {
-      \tempo 4=120
       \clef "bass"
       \time 2/2
       \key g \major
       \new Voice = "vc" { \cello }
     }
     \new Staff \with {midiInstrument = "contrabass"} {
-      \tempo 4=120
       \clef "bass"
       \time 2/2
       \key g \major

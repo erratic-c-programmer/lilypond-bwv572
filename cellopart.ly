@@ -1,7 +1,15 @@
 \version "2.22.1"
 \include "cello.ly"
 
+\header {
+  title = "Piéce d'orgue"
+  composer = "J. S. Bach"
+}
+
 \score {
+  \header {
+    piece = "Gravement"
+  }
   \new Staff \with {midiInstrument = "cello"} {
     \tempo 4=120
     \clef "bass"

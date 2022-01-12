@@ -5,7 +5,7 @@ all : pdfs/fullscore.pdf pdfs/vlapart.pdf pdfs/vln1part.pdf pdfs/vln2part.pdf pd
 	mv *.midi midis
 	rm */blank.*
 
-fullscore.pdf : fullscore.ly violin1.ly violin2.ly viola.ly cello.ly dblbass.ly
+pdfs/fullscore.pdf : fullscore.ly violin1.ly violin2.ly viola.ly cello.ly dblbass.ly
 	lilypond fullscore.ly
 	#fluidsynth -Ffullscore.wav fullscore.midi >/dev/null 2>&1
 
