@@ -4,6 +4,7 @@
 \header {
   title = "Piéce d'orgue"
   composer = "J. S. Bach"
+  arranger = "Isaac"
 }
 
 \score {

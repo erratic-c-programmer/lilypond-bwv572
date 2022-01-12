@@ -1,8 +1,10 @@
+\version "2.22.1"
 \include "violin1.ly"
 
 \header {
   title = "Piéce d'orgue"
   composer = "J. S. Bach"
+  arranger = "Isaac"
 }
 
 \score {
