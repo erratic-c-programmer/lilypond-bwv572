@@ -4,7 +4,7 @@
 
 cello = \relative g {
   % page 1
-  r2 g4 fis | e2 a4 g | fis2 g~ | 2 a~ | 4 a b c | d2. c4 | b a g2 | fis4\mordent e8 d g2~ | \break
+  r2\mf g4 fis | e2 a4 g | fis2 g~ | 2 a~ | 4 a b c | d2. c4 | b a g2 | fis4\mordent e8 d g2~ | \break
   4 g fis e | d1 | a'2 d,4 e | fis g a2~ | 4 a g fis | e2 a~ | 4 g fis2~ | 4 fis e d | \break
   cis2 d4 e | fis g a2~ | 1~ | 1~ | 2 d4 cis | b2 e4 d | cis2 d4 e | d cis b2 | \break
   fis1 | e2. d4 | cis2 d | e4 fis g2~ | 4 fis b2 | fis1~ | 2 g~ | 2 a~ | \break
@@ -19,8 +19,8 @@ cello = \relative g {
 
   % page 3
   b4 a g fis | e2 a | d,2. c4 | b2 b' | c4 b a2~ | 2 b | e,2. d4 | \break
-  a'2. g4 | d' a e2~ | 2. f4 | e1~ | 8 a g f e d e c | d4 e8 f g2~ | 8 e a gis a2~ | \break
-  8 a b c d c b c | b4.\mordent a16 b c4 d | e b8 d16 c d2 | c4 b a2 | gis2. fis8 e | a1 | g4 a8 bes a2 | \break
+  a'2. g4 | d' a e2~ | 2. f4 | e1~ | 8\breathe a\ff g f e d e c | d4 e8 f g2~ | 8 e a gis a2~ | \break
+  8 a b c d c b c | b4.\mordent a16 b c4 d | e b8 d16 c d2 | c4\> b a2\mf | gis2. fis8 e | a1 | g4 a8 bes a2 | \break
   d c | bes a~ | 1~ | 2 d~ | 4 d c2~ | 4 c bes a | bes c d2 | \break
   cis d4 e | a, b c2 | d1~ | 4 e f2 | g2. d4 | e2 d | e a,~ | 1 | \break
 

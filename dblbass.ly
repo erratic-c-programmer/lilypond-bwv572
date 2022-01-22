@@ -4,7 +4,7 @@
 
 dbl = \relative g, {
   % page 1
-  g1 | a | b | c | d~ |1 | e2. d4 | c2 b | \break
+  g1\f | a | b | c | d~ |1 | e2. d4 | c2 b | \break
   a2. g4 | fis2 g~ | 2 fis4 g | a1 | b | cis | d | g, | \break
   a~ | 2 a'4 g | fis e fis d | a'2 a, | d1 | e | fis | g2. fis4 | \break
   e2 d~ | 4 d cis b | ais2 b | e, e'~ | 4 fis g e | fis2 fis, | b1 | c | \break

@@ -4,7 +4,7 @@
 
 vtwo = \relative d'' {
   % page 1
-  r2 d\downbow | c1~ | 4 c\upbow b2~ | 4 b a g | fis2 g~ | 4 g\upbow fis2~ | 4 fis e2 | d1 | \break
+  r2\mf d\downbow | c1~ | 4 c\upbow b2~ | 4 b a g | fis2 g~ | 4 g\upbow fis2~ | 4 fis e2 | d1 | \break
   e2 a~ | 4 a\upbow g fis | e2 a(~ | 2. g4) | fis2\breathe b2~ | 4 b  a g | fis2. e4 | d2 e~ | \break
   4 e\upbow d2~ | 2 cis4 d | g2 fis4( a~ | 4) b a g~ | 4 fis\breathe d'2~ | 4 d cis b | ais1 | b4 a g2 | \break
   fis1 | gis2 ais4 b | cis2 b4 a | g1~ | 1~ | 4 g\upbow fis e~ | e d\breathe b'2~ | 4 b a g | \break

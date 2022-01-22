@@ -4,7 +4,7 @@
 
 vla = \relative b' {
   % page 1
-  r2 b2~ | 4 b a2~ | 4 a g fis | e1 | d~ | 1 | 4 d c b | a2 g | \break
+  r2\mf b2~ | 4 b a2~ | 4 a g fis | e1 | d~ | 1 | 4 d c b | a2 g | \break
   c1 | d | e2 fis~ | 2 e | d g~ | 4 fis e2~ | 4 e d c | b1 | \break
   a1~ | 4 b cis2 | e d4 fis | e1 | d2 a' | g1 | fis~ | 4 fis e d | \break
   cis2  b~ | 4 e fis g | fis1~ | 4 fis e2~ | 2. d4 | cis1 | b2 g'4 fis | e1~ | \break
